@@ -1,5 +1,3 @@
-## train_model.py
-
 """Build, deploy and access a model using scikit-learn"""
 
 import pickle
@@ -28,3 +26,8 @@ estimator.fit(features, target)
 
 with open("homework/house_predictor.pkl", "wb") as file:
     pickle.dump(estimator, file)
+
+
+
+
+
